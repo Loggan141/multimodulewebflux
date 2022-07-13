@@ -10,8 +10,8 @@ import reactor.core.publisher.Mono;
 import reactor.test.StepVerifier;
 import stub.RouteStub;
 import stub.TruckStub;
-import truck.TruckService;
-import truck.TruckServiceFacade;
+import com.forttiori.multimodulereactivewebflux.truck.TruckService;
+import com.forttiori.multimodulereactivewebflux.truck.TruckServiceFacade;
 
 import java.util.List;
 

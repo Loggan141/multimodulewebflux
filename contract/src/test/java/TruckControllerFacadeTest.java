@@ -11,8 +11,8 @@ import reactor.test.StepVerifier;
 import stub.RouteStub;
 import stub.TruckStub;
 import stub.TruckStubMapper;
-import truck.TruckServiceFacade;
-import com.v1.truck.TruckControllerFacade;
+import com.forttiori.multimodulereactivewebflux.truck.TruckServiceFacade;
+import com.forttiori.multimodulereactivewebflux.v1.truck.TruckControllerFacade;
 
 import java.util.List;
 

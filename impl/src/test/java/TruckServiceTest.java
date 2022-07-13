@@ -12,12 +12,12 @@ import org.springframework.test.context.TestPropertySource;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 import reactor.test.StepVerifier;
-import repository.TruckRepository;
-import routes.RoutesIntegration;
+import com.forttiori.multimodulereactivewebflux.repository.TruckRepository;
+import com.forttiori.multimodulereactivewebflux.routes.RoutesIntegration;
 import stub.RouteStub;
 import stub.TruckStub;
-import truck.TruckService;
-import truck.model.TruckServiceMapper;
+import com.forttiori.multimodulereactivewebflux.truck.TruckService;
+import com.forttiori.multimodulereactivewebflux.truck.model.TruckServiceMapper;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

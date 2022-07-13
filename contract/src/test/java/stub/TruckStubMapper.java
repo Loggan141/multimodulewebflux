@@ -1,7 +1,7 @@
 package stub;
 
-import truck.model.TruckServiceResponse;
-import com.v1.truck.model.TruckControllerResponse;
+import com.forttiori.multimodulereactivewebflux.truck.model.TruckServiceResponse;
+import com.forttiori.multimodulereactivewebflux.v1.truck.model.TruckControllerResponse;
 
 public class TruckStubMapper {
 

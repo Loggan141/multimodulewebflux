@@ -1,8 +1,8 @@
 package stub;
 
-import repository.entity.TruckEntity;
-import truck.model.TruckServiceRequest;
-import truck.model.TruckServiceResponse;
+import com.forttiori.multimodulereactivewebflux.repository.entity.TruckEntity;
+import com.forttiori.multimodulereactivewebflux.truck.model.TruckServiceRequest;
+import com.forttiori.multimodulereactivewebflux.truck.model.TruckServiceResponse;
 
 public class TruckStub {
     public static TruckServiceRequest truckToCreate(){

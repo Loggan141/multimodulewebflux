@@ -3,4 +3,5 @@ include 'contract'
 include 'impl'
 include 'integration'
 include 'common'
+include 'contract2'
 

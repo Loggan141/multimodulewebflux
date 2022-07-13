@@ -9,15 +9,15 @@ import org.springframework.test.web.reactive.server.WebTestClient;
 import org.springframework.web.reactive.function.BodyInserters;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
-import repository.TruckRepository;
+import com.forttiori.multimodulereactivewebflux.repository.TruckRepository;
 import stub.RouteStub;
 import stub.TruckStub;
 import stub.TruckStubMapper;
-import truck.TruckService;
-import truck.TruckServiceFacade;
-import com.v1.truck.TruckController;
-import com.v1.truck.TruckControllerFacade;
-import com.v1.truck.model.TruckControllerResponse;
+import com.forttiori.multimodulereactivewebflux.truck.TruckService;
+import com.forttiori.multimodulereactivewebflux.truck.TruckServiceFacade;
+import com.forttiori.multimodulereactivewebflux.v1.truck.TruckController;
+import com.forttiori.multimodulereactivewebflux.v1.truck.TruckControllerFacade;
+import com.forttiori.multimodulereactivewebflux.v1.truck.model.TruckControllerResponse;
 
 import java.util.List;
 

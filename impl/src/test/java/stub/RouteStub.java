@@ -1,15 +1,15 @@
 package stub;
 
-import repository.entity.RoutesEntity;
-import repository.entity.TruckEntity;
-import routes.RoutesServiceRequest;
-import routes.model.Distance;
-import routes.model.Duration;
-import routes.model.Element;
-import routes.model.Row;
-import routes.model.request.RoutesIntegrationRequest;
-import routes.model.response.RoutesIntegrationResponse;
-import truck.model.TruckServiceResponse;
+import com.forttiori.multimodulereactivewebflux.repository.entity.RoutesEntity;
+import com.forttiori.multimodulereactivewebflux.repository.entity.TruckEntity;
+import com.forttiori.multimodulereactivewebflux.routes.RoutesServiceRequest;
+import com.forttiori.multimodulereactivewebflux.routes.model.Distance;
+import com.forttiori.multimodulereactivewebflux.routes.model.Duration;
+import com.forttiori.multimodulereactivewebflux.routes.model.Element;
+import com.forttiori.multimodulereactivewebflux.routes.model.Row;
+import com.forttiori.multimodulereactivewebflux.routes.model.request.RoutesIntegrationRequest;
+import com.forttiori.multimodulereactivewebflux.routes.model.response.RoutesIntegrationResponse;
+import com.forttiori.multimodulereactivewebflux.truck.model.TruckServiceResponse;
 
 import java.util.List;
 

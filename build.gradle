@@ -9,7 +9,6 @@ plugins {
 
 dependencies{
 	implementation project(':contract')
-	implementation project(':impl')
 	testImplementation project(':contract')
 	testImplementation project(':impl')
 	testImplementation project(':integration')
@@ -19,7 +18,7 @@ dependencies{
 
 allprojects {
 
-	group = 'com.forttiori'
+	group = 'com.forttiori.multimodulereactivewebfluxe'
 	version = '0.0.1-SNAPSHOT'
 	sourceCompatibility = '17'
 

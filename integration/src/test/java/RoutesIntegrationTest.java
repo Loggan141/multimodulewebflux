@@ -16,7 +16,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.web.reactive.function.client.WebClient;
 import reactor.test.StepVerifier;
-import routes.RoutesIntegration;
+import com.forttiori.multimodulereactivewebflux.routes.RoutesIntegration;
 import stub.RouteStub;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

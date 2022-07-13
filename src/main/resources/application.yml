@@ -1,12 +1,13 @@
-#server:
-#  port: 8030
-#
-#spring:
-#  data:
-#    mongodb:
-#      database: MultiWebfluxed
-#      host: localhost
-#      port: 27017
+server:
+  port: 9001
+
+spring:
+  data:
+    mongodb:
+      database: MultiWebfluxed
+      host: localhost
+      port: 27017
+
 #  main:
 #    web-application-type: reactive
 #logging:
