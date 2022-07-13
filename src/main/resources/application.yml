@@ -1,0 +1,31 @@
+#server:
+#  port: 8030
+#
+#spring:
+#  data:
+#    mongodb:
+#      database: MultiWebfluxed
+#      host: localhost
+#      port: 27017
+#  main:
+#    web-application-type: reactive
+#logging:
+#  level:
+#    io:
+#      reflector: DEBUG
+#    org:
+#      springframework:
+#        web: INFO
+#        data:
+#          mongodb:
+#            core:
+
+#              ReactiveMongoTemplate: DEBUG
+
+#spring:
+#  profiles:
+#    active: dev
+#  application:
+#    name: application
+#  config:
+#    import: "optional:configserver:http://localhost:8888/config-server/"

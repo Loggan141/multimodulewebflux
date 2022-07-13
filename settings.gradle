@@ -1,0 +1,6 @@
+rootProject.name = 'multimodulereactivewebflux'
+include 'contract'
+include 'impl'
+include 'integration'
+include 'common'
+
